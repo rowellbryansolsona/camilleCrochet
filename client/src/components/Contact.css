@@ -1,0 +1,62 @@
+.contact{
+    padding-top: 30px;
+
+}
+
+.contactbg{
+    background-image: url(../bgimg/bg9.jpeg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    height: 670px;
+}
+.contactbg h1{
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contactbg p{
+    text-align: center;
+}
+
+.tracking-in-expand-fwd{-webkit-animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both}
+
+ @-webkit-keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+
+label{
+    font-size: 1.1em;
+}
+
+#container{
+    text-align: center;
+}
+#btn button{
+    color: #ffffff;
+    background: rgb(255, 255, 255);
+    border: none;
+    font-size: 1.1em;
+    width: 200px;
+}
+.row{
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    .contact{
+    padding-top: 30px;
+    }
+    .contactbg{
+        background-image: url(../bgimg/bg9.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        height: 760px;
+    }
+    .row{
+        gap: 0;
+    }
+}

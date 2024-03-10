@@ -1,0 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inter, Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  background: linear-gradient(to right, #867bc7, #FFB4B4, #FFDEB4);
+}

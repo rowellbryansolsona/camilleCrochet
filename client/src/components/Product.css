@@ -1,0 +1,52 @@
+
+div .prodrow div h1{
+    font-size: 2rem;
+    padding: 30px 0 20px 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.cardcontent{
+    background: #867bc7;
+    height: 125px;
+}
+
+.btncontainer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btndetails{
+    background-color: #867bc7;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.card{
+    width: 400px;
+    height: 500px;
+}
+.card .cardmedia{
+    width: 400px;
+    height: 300px;
+}
+.prodcol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+@media (max-width: 600px){
+    .card{
+        width: 300px;
+        height: 400px;
+    }
+    .card .cardmedia{
+        width: 300px;
+        height: 200px;
+    }
+    .prodcol{
+        padding: 20px;
+    }
+}

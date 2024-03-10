@@ -1,0 +1,138 @@
+.footer{
+    background: linear-gradient(to right, #867bc7, #FFB4B4, #FFDEB4);
+}
+
+.footcontainer{
+    margin: 30px 25px 30px 25px;
+}
+
+.footcontainer .containerRow{
+    padding: 30px 0 30px 20px;
+    border-bottom: 2px solid rgb(214, 214, 214);
+}
+
+.footcontainer .containerRow .contactcol{
+    text-align: left;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.footcontainer .containerRow h1{
+    font-size: 22px;
+}
+
+.footcontainer .containerRow p{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.footcontainer .containerRow a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footcontainer .containerRow .linkscol h1{
+    text-align: left;
+    font-size: 22px;
+}
+
+.footcontainer .containerRow .linkscol ul{
+    list-style-type: none;
+    text-align: start;
+}
+
+.footcontainer .containerRow .linkscol ul li .a{
+    margin-left: none;
+    text-decoration: none;
+    color: inherit;
+}
+.fbcol img{
+    width: 250px;
+}
+
+.footerbottom {
+    background: linear-gradient(to right, #867bc7, #FFB4B4, #FFDEB4);
+    text-align: center;
+    font-size: 14px;
+    height: 50px;
+}
+
+.footerbottom p {
+    color: #35374B;
+    font-size: 0.9em;
+}
+
+.focus-in-expand {
+	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    
+    .footcontainer{
+        margin: 0px;
+        padding-left: 0px;
+    }
+    .footcontainer .containerRow h1{
+        font-size: 20px;
+    }
+    
+    .footcontainer .containerRow p{
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+    
+    .footcontainer .containerRow a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    
+    .footcontainer .containerRow .linkscol{
+        padding-left: 50px;
+    }
+    .footcontainer .containerRow .linkscol h1{
+        text-align: start;
+        font-size: 20px;
+    }
+    .footcontainer .containerRow .linkscol ul{
+        padding-left: 0;
+    }
+    
+    .fbcol img{
+        width: 150px;
+    }
+    .footerbottom p{
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    
+  }
+  

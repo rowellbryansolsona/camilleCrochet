@@ -1,0 +1,136 @@
+/* .nav{
+    z-index:999;
+    background: linear-gradient(to right, #867bc7, #FFB4B4, #FFDEB4);
+    display: flex;
+    height: 140px;
+    width: 100%;
+    padding: 10px 120px;
+    position: fixed;
+    z-index: 999;
+}
+
+.logocontainer .logo{
+    width: 130px;
+    border: 2px ;
+    border-radius: 20%;
+    cursor: pointer;
+    align-items: start;
+}
+.nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 0 6px;
+    list-style: none;
+}
+.nav ul li{
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav ul li .link{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px white;
+    color: black;
+}
+.nav ul li .link :hover{
+        color: #B2A4FF;
+        text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+        transition: 0.8s;
+}
+
+
+@media (max-width: 600px){
+
+} */
+
+.active{
+    background-color: #35374B;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #867bc7, #FFB4B4, #FFDEB4);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin-top: 20px;
+}
+nav .logocontainer .logo{
+    width: 130px;
+    border: 2px ;
+    border-radius: 20%;
+    cursor: pointer;
+    align-items: start;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #35374B;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+nav ul li a :not(.active):hover{
+    background-color: aqua;
+}
+nav .menu{
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.5rem;
+    height: 2rem;
+}
+nav .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: #35374B;
+    border-radius: 0.2rem;
+}
+@media (max-width: 600px){
+
+    nav .logocontainer .logo{
+        width: 100px;
+        margin: 10px;
+    }
+    nav .menu{
+        display: flex;
+    }
+    nav{
+        flex-direction: column;
+        align-items: start;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+    nav ul.open{
+        display: flex;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a{
+        margin: 0.2rem 0.5rem;
+    }
+}
